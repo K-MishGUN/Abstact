@@ -1,3 +1,4 @@
+import transport.groundTransport.TypesOfGroundTransport.Bus;
 import transport.groundTransport.TypesOfGroundTransport.Car;
 
 
@@ -9,6 +10,8 @@ public class Main {
         Car.moving();
         Car.carWash();
 
+        Bus bus = new Bus();
+        bus.moving();
 
     }
 }
